@@ -1,5 +1,5 @@
 let rule = "Еще не родился тот человек, который, поставил бы цель, и не смог бы стать программистом."
-
+function lengthCheck(rule){
 switch(true){
     case rule.length<25:
     console.log("Все таки нет правил без исключения")
@@ -12,4 +12,5 @@ switch(true){
     break;
     
 
-}
+}}
+lengthCheck(rule)
