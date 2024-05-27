@@ -12,8 +12,8 @@ let passportMarried2 = {
     address: {
         country: "USA",
         city: "Bobryisk"
-    },
-    married: true}
+    }}
+passportMarried2.married = true
 
 console.log(passportMarried)
 console.log(passportMarried2)
