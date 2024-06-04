@@ -60,6 +60,5 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-const oddId = users.filter((user)=>user.id%2===0)
 
-console.log(oddId)
+console.log(users.filter(user=>user.id%2===0))
